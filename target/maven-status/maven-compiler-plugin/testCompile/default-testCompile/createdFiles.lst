@@ -1,0 +1,4 @@
+BaseTest\ServiceHooks.class
+BaseTest\ReadPropertyFile.class
+TestRunner.class
+stepdefs\StepDefinition.class
