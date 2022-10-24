@@ -46,11 +46,11 @@ public class ServiceHooks {
 		
     	if(desiredEnvironment.equalsIgnoreCase("SIT")){
     		//String baseUrl = ReadPropertyFile.readPropertiesFile("SystemVariables.properties","SITURL");
-            baseUrl = "https://sit-ne.healthinteractive.com/fssologin.aspx?idp=SIT_Nebraska&action=HandleIdpResponse";
+            baseUrl = "";
     	}
     	else if (desiredEnvironment.equalsIgnoreCase("UAT")){
     		//String baseUrl = ReadPropertyFile.readPropertiesFile("SystemVariables.properties","UATURL");
-            baseUrl = "https://uat-ne.healthinteractive.com/fssologin.aspx?idp=UAT_Nebraska&action=HandleIdpResponse";
+            baseUrl = "";
     	}
     	else{
     		//throw new Exception("Browser is not correct");
